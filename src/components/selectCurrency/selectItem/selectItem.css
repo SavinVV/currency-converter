@@ -1,0 +1,14 @@
+.select__item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid #787878 1px;
+}
+
+.select__item:last-child {
+    border-bottom: 0;
+}
+
+.select__item:hover {
+    background-color: #787878;
+}
